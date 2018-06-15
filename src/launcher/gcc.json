@@ -1,0 +1,16 @@
+{
+  "launcherType": "bin",
+  "config": {
+    "executable": "$( locres apps/gcc/$UVER_GCC_VERSION )/bin/$USYS_OS/bin/gcc"
+  },
+  "env": {
+    "prepend": {
+      "LD_LIBRARY_PATH": [
+        "$( locres apps/gcc/$UVER_GCC_VERSION )/bin/$USYS_OS/lib64"
+      ],
+      "CPLUS_INCLUDE_PATH": [
+        "$( locres apps/gcc/$UVER_GCC_VERSION )/bin/$USYS_OS/include/c++/$UVER_GCC_VERSION"
+      ]
+    }
+  }
+}
