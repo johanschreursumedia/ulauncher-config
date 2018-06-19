@@ -1,0 +1,11 @@
+{
+  "launcherType": "bin",
+  "config": {
+    "executable": "$( locres apps/deadline/$UVER_DEADLINECOMMAND_VERSION )/bin/$USYS_OS/bin/deadlinecommand"
+  },
+  "env": {
+    "override" : {
+      "DEADLINE_PATH": "$( locres apps/deadline/$UVER_DEADLINECOMMAND_VERSION )/bin/$USYS_OS/bin"
+    }
+  }
+}

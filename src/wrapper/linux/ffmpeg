@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# executing ffmpeg
+exec "$( locres apps/ffmpeg/$UVER_FFMPEG_VERSION )/bin/$USYS_OS/ffmpeg" "$@"

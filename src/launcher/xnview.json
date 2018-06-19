@@ -1,0 +1,6 @@
+{
+  "launcherType": "bin",
+  "config": {
+    "executable": "$( locres apps/xnview/$UVER_XNVIEW_VERSION )/bin/$USYS_OS/xnview.sh"
+  }
+}
