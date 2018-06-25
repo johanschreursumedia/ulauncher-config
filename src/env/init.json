@@ -7,7 +7,6 @@
     ]
   },
   "override": {
-      "REZ_LOCATION": "$( locres apps/rez/$UVER_REZ_VERSION )/bin/$USYS_OS",
-      "SHOTGUN_PYTHON_EXECUTABLE": "$( locres apps/shotgunDesktop/$UVER_SHOTGUNDESKTOP_VERSION )/bin/$USYS_OS/Python/bin/python"
+      "REZ_LOCATION": "$( locres apps/rez/$UVER_REZ_VERSION )/bin/$USYS_OS"
   }
 }
