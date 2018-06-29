@@ -67,11 +67,11 @@
                 }
             }
         },
-        "ingestor":{
+        "centipede":{
             "env": {
                 "prepend": {
                     "PYTHONPATH": [
-                        "$( locres apps/ingestor/$UVER_INGESTOR_VERSION )/python$(majorver $UVER_UPYTHON_VERSION)/lib"
+                        "$( locres apps/centipede/$UVER_CENTIPEDE_VERSION )/python$(majorver $UVER_UPYTHON_VERSION)/lib"
                     ]
                 }
             }

@@ -1,0 +1,13 @@
+{
+  "launcherType": "bin",
+  "config": {
+    "executable": "upython $( locres apps/centipede/$UVER_CENTIPEDE_VERSION )/python$(majorver $UVER_UPYTHON_VERSION)/bin/centipede-gui.py"
+  },
+  "env": {
+    "prepend": {
+      "PYTHONPATH": [
+        "$( locres apps/centipede/$UVER_CENTIPEDE_VERSION )/python$(majorver $UVER_UPYTHON_VERSION)/lib"
+      ]
+    }
+  }
+}
