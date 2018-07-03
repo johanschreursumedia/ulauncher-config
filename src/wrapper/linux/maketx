@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# executing maketx
+exec ulaunch "maya/mtoamaketx" "$@"
