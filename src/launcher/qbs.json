@@ -1,7 +1,9 @@
 {
   "launcherType": "bin",
   "config": {
-    "executable": "$( locres apps/qbs/$UVER_QBS_VERSION )/bin/$USYS_OS/bin/qbs"
+    "executable": {
+      "default": "$( locres apps/qbs/$UVER_QBS_VERSION )/bin/$USYS_OS/bin/qbs"
+    }
   },
   "env": {
     "prepend": {

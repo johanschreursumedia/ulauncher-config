@@ -1,7 +1,9 @@
 {
   "launcherType": "bin",
   "config": {
-    "executable": "$( locres apps/nuke/$UVER_NUKE_VERSION )/bin/$USYS_OS/Nuke*"
+    "executable": {
+      "default": "$( locres apps/nuke/$UVER_NUKE_VERSION )/bin/$USYS_OS/Nuke*"
+    }
   },
   "env": {
     "unset": [

@@ -1,7 +1,9 @@
 {
   "launcherType": "bin",
   "config": {
-    "executable": "$( locres apps/atom/$UVER_ATOM_VERSION )/bin/$USYS_OS/usr/bin/atom"
+    "executable": {
+      "default": "$( locres apps/atom/$UVER_ATOM_VERSION )/bin/$USYS_OS/usr/bin/atom"
+    }
   },
   "env": {
     "prepend": {

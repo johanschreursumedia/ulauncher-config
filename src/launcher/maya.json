@@ -1,7 +1,11 @@
 {
   "launcherType": "bin",
   "config": {
-    "executable": "$( locres apps/maya/$UVER_MAYA_VERSION )/bin/$USYS_OS/autodesk/maya/bin/maya$(majorver $UVER_MAYA_VERSION)"
+    "executable": {
+      "default": "$( locres apps/maya/$UVER_MAYA_VERSION )/bin/$USYS_OS/autodesk/maya/bin/maya$(majorver $UVER_MAYA_VERSION)",
+      "mtoamaketx": "$( locres plugins/maya/$(majorver $UVER_MAYA_VERSION)/mtoa/$UVER_MTOA_VERSION )/bin/$USYS_OS/bin/maketx",
+      "mtoakick": "$( locres plugins/maya/$(majorver $UVER_MAYA_VERSION)/mtoa/$UVER_MTOA_VERSION )/bin/$USYS_OS/bin/kick"
+    }
   },
   "env": {
     "override": {

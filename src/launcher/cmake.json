@@ -1,6 +1,8 @@
 {
   "launcherType": "bin",
   "config": {
-    "executable": "$( locres apps/cmake/$UVER_CMAKE_VERSION )/bin/$USYS_OS/bin/cmake"
+    "executable": {
+      "default": "$( locres apps/cmake/$UVER_CMAKE_VERSION )/bin/$USYS_OS/bin/cmake"
+    }
   }
 }
