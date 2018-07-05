@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# executing fcheck
+exec ulaunch "maya/fcheck" "$@"
