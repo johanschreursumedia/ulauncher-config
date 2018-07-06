@@ -1,0 +1,15 @@
+{
+  "launcherType": "bin",
+  "config": {
+    "executable": {
+      "default": "$( locres apps/deadline/$UVER_DEADLINE_VERSION )/bin/$USYS_OS/bin/deadlinecommand",
+      "monitor": "$( locres apps/deadline/$UVER_DEADLINE_VERSION )/bin/$USYS_OS/bin/deadlinemonitor",
+      "slave": "$( locres apps/deadline/$UVER_DEADLINE_VERSION )/bin/$USYS_OS/bin/deadlineslave"
+    }
+  },
+  "env": {
+    "override" : {
+      "DEADLINE_PATH": "$( locres apps/deadline/$UVER_DEADLINE_VERSION )/bin/$USYS_OS/bin"
+    }
+  }
+}

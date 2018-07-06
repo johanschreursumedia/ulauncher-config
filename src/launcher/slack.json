@@ -1,6 +1,8 @@
 {
   "launcherType": "bin",
   "config": {
-    "executable": "$( locres apps/slack/$UVER_SLACK_VERSION )/bin/$USYS_OS/slack"
+    "executable": {
+      "default": "$( locres apps/slack/$UVER_SLACK_VERSION )/bin/$USYS_OS/slack"
+    }
   }
 }

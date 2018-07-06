@@ -1,7 +1,9 @@
 {
   "launcherType": "bin",
   "config": {
-    "executable": "$( locres apps/mudbox/$UVER_MUDBOX_VERSION )/bin/$USYS_OS/autodesk/mudbox/bin/mudbox$(majorver $UVER_MUDBOX_VERSION)"
+    "executable": {
+      "default": "$( locres apps/mudbox/$UVER_MUDBOX_VERSION )/bin/$USYS_OS/autodesk/mudbox/bin/mudbox$(majorver $UVER_MUDBOX_VERSION)"
+    }
   },
   "env": {
     "override": {

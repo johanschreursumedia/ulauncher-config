@@ -1,7 +1,9 @@
 {
   "launcherType": "bin",
   "config": {
-    "executable": "$( locres apps/gaffer/$UVER_GAFFER_VERSION )/bin/$USYS_OS/bin/gaffer"
+    "executable": {
+      "default": "$( locres apps/gaffer/$UVER_GAFFER_VERSION )/bin/$USYS_OS/bin/gaffer"
+    }
   },
   "addons": {
     "shotgun": {

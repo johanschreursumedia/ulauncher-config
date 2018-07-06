@@ -1,4 +1,4 @@
 #!/bin/bash
 
 # executing deadline slave
-exec ulaunch "deadlineslave" "$@"
+exec ulaunch "deadline/slave" "$@"

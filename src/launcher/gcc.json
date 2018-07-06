@@ -1,7 +1,9 @@
 {
   "launcherType": "bin",
   "config": {
-    "executable": "$( locres apps/gcc/$UVER_GCC_VERSION )/bin/$USYS_OS/bin/gcc"
+    "executable": {
+      "default": "$( locres apps/gcc/$UVER_GCC_VERSION )/bin/$USYS_OS/bin/gcc"
+    }
   },
   "env": {
     "prepend": {

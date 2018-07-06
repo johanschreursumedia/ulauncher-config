@@ -1,6 +1,8 @@
 {
   "launcherType": "bin",
   "config": {
-    "executable": "$( locres apps/mochapro/$UVER_MOCHAPRO_VERSION )/bin/$USYS_OS/bin/mochapro"
+    "executable": {
+      "default": "$( locres apps/mochapro/$UVER_MOCHAPRO_VERSION )/bin/$USYS_OS/bin/mochapro"
+    }
   }
 }

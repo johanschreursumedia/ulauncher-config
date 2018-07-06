@@ -1,7 +1,9 @@
 {
   "launcherType": "bin",
   "config": {
-    "executable": "$( locres apps/rv/$UVER_RV_VERSION )/bin/$USYS_OS/bin/rv"
+    "executable": {
+      "default": "$( locres apps/rv/$UVER_RV_VERSION )/bin/$USYS_OS/bin/rv"
+    }
   },
   "env": {
     "override": {

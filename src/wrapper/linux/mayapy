@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# executing mayapy
+exec ulaunch "maya/mayapy" "$@"

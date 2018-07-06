@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# executing kick
+exec ulaunch "maya/mtoakick" "$@"
